@@ -1,0 +1,15 @@
+#include <stdio.h>
+int main()
+{
+    int mark=30;
+    if(mark>=40)
+    {
+        printf("pass");
+        
+    }
+    else
+    {
+        printf("fail");
+    }
+    return 0;
+}
