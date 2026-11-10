@@ -1,0 +1,14 @@
+#include <stdio.h>
+int main()
+{
+    int mark=85;
+    if(mark>=40)
+    {
+        printf("PASS\n");
+        if(mark>=75)
+        {
+            printf("DISTINCTION");
+        }
+    }
+    return 0;
+}
